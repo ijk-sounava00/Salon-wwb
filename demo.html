@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LikeMe Unisex Beauty Salon — Premium Hair, Skin & Grooming for Women & Men</title>
+  <meta name="description" content="Discover your signature look at LikeMe Unisex Beauty Salon. Bespoke hair styling, skin care, beard grooming, bridal & groom makeovers for women and men. Call 9749550616." />
+
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            blush: {
+              DEFAULT: '#F8E8E8',
+              50: '#FCF5F5',
+              100: '#F8E8E8',
+              200: '#F0D1D1',
+              300: '#E7BABA',
+            },
+            champagne: {
+              DEFAULT: '#C6A15B',
+              50: '#F8F4EC',
+              100: '#EFE6D2',
+              200: '#E2D1A8',
+              300: '#D5BC7E',
+              400: '#C6A15B',
+              500: '#B58E45',
+              600: '#957233',
+            },
+            ivory: {
+              DEFAULT: '#FFFDF8',
+              warm: '#FBF8F1',
+            },
+            espresso: {
+              DEFAULT: '#302321',
+              light: '#4A3734',
+              muted: '#695552',
+              dark: '#1F1514',
+            },
+            rose: {
+              muted: '#C98791',
+              soft: '#DDAAB1',
+              deep: '#A35F6B',
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Inter"', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'luxury': '0 10px 30px -10px rgba(48, 35, 33, 0.08), 0 4px 12px -2px rgba(198, 161, 91, 0.08)',
+            'luxury-hover': '0 20px 40px -15px rgba(48, 35, 33, 0.15), 0 8px 20px -4px rgba(198, 161, 91, 0.2)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons via CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #FFFDF8;
+      color: #302321;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    h1, h2, h3, h4, .font-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #B58E45 0%, #C6A15B 50%, #D5BC7E 100%);
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #B58E45 0%, #C6A15B 50%, #E2D1A8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .blush-pattern {
+      background-color: #FFFDF8;
+      background-image: radial-gradient(#F8E8E8 1.5px, transparent 1.5px), radial-gradient(#F8E8E8 1.5px, #FFFDF8 1.5px);
+      background-size: 60px 60px;
+      background-position: 0 0, 30px 30px;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FFFDF8;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #E2D1A8;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #C6A15B;
+    }
+  </style>
+</head>
+<body class="selection:bg-champagne/30 selection:text-espresso min-h-screen flex flex-col pb-16 sm:pb-0">
+
+  <!-- 1. TOP ANNOUNCEMENT BAR -->
+  <div class="bg-espresso text-ivory text-[11px] py-1.5 px-4 text-center border-b border-champagne/20 flex items-center justify-center gap-2 tracking-wide">
+    <i data-lucide="sparkles" class="w-3.5 h-3.5 text-champagne shrink-0"></i>
+    <span>LikeMe Unisex Salon • Serving Women & Men • Direct Call / WhatsApp:</span>
+    <a href="tel:9749550616" class="font-bold text-champagne hover:underline inline-flex items-center gap-1">
+      <i data-lucide="phone" class="w-3 h-3"></i>
+      <span>+91 9749550616</span>
+    </a>
+  </div>
+
+  <!-- 2. STICKY NAVBAR -->
+  <header id="main-nav" class="sticky top-0 z-50 bg-ivory/95 backdrop-blur-md py-3.5 border-b border-champagne/20 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Logo -->
+        <a href="#home" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-full bg-espresso flex items-center justify-center border border-champagne shadow-sm group-hover:scale-105 transition-transform">
+            <span class="font-serif font-bold text-champagne text-lg">LM</span>
+          </div>
+          <div>
+            <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-espresso block leading-tight">
+              LikeMe <span class="font-light italic text-champagne-500">Unisex</span>
+            </span>
+            <span class="text-[10px] uppercase tracking-[0.22em] text-espresso-muted block font-semibold">
+              Beauty & Grooming Salon
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Links -->
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="#home" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">Home</a>
+          <a href="#about" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">About</a>
+          <a href="#services" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">Services</a>
+          <a href="#gallery" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">Gallery</a>
+          <a href="#why-us" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">Why Us</a>
+          <a href="#contact" class="text-sm font-medium text-espresso hover:text-champagne-600 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right Action Buttons -->
+        <div class="hidden sm:flex items-center gap-4">
+          <a href="tel:9749550616" class="flex items-center gap-2 text-xs font-semibold text-espresso hover:text-champagne px-3 py-2 rounded-full border border-blush-300 hover:border-champagne transition-colors">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-champagne-500"></i>
+            <span>9749550616</span>
+          </a>
+          <a href="#appointment" class="gold-gradient-bg text-espresso-dark font-semibold text-sm px-5 py-2.5 rounded-full shadow-md hover:shadow-lg hover:scale-[1.02] transition-all flex items-center gap-2">
+            <i data-lucide="calendar" class="w-4 h-4 text-espresso-dark"></i>
+            <span>Book Appointment</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-espresso hover:text-champagne focus:outline-none">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-ivory border-t border-champagne/20 px-6 py-6 shadow-xl space-y-4">
+      <div class="flex flex-col gap-3">
+        <a href="#home" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">Home</a>
+        <a href="#about" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">About</a>
+        <a href="#services" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">Services (Women & Men)</a>
+        <a href="#gallery" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">Gallery</a>
+        <a href="#why-us" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">Why Us</a>
+        <a href="#contact" class="mobile-nav-link text-base font-medium text-espresso py-1 border-b border-blush-100">Contact</a>
+      </div>
+      <div class="pt-2 flex flex-col gap-2.5">
+        <a href="tel:9749550616" class="w-full text-center py-2.5 rounded-xl border border-champagne/40 text-espresso font-medium text-sm bg-blush-50 flex items-center justify-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4 text-champagne-600"></i>
+          <span>Call 9749550616</span>
+        </a>
+        <a href="#appointment" class="mobile-nav-link w-full text-center gold-gradient-bg text-espresso-dark font-bold py-3 rounded-xl shadow-md text-sm flex items-center justify-center gap-2">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          <span>Book Your Appointment</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION (Unisex for Women & Men) -->
+  <section id="home" class="pt-20 pb-16 md:pt-28 md:pb-24 blush-pattern relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Text -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blush-100 border border-champagne/30 shadow-sm">
+            <i data-lucide="sparkles" class="w-4 h-4 text-champagne-500 animate-pulse"></i>
+            <span class="text-xs uppercase tracking-widest font-semibold text-espresso-muted">
+              Unisex Salon • For Women & Men
+            </span>
+          </div>
+
+          <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-espresso tracking-tight leading-[1.12]">
+            Your Beauty, <br />
+            <span class="italic font-normal gold-gradient-text">Our Passion.</span>
+          </h1>
+
+          <p class="text-base sm:text-lg md:text-xl text-espresso-muted max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+            Discover your signature look with personalized salon services and a touch of elegance. Precision haircuts, beard sculpting, glowing skin therapies, and bridal & groom styling.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#appointment" class="w-full sm:w-auto gold-gradient-bg text-espresso-dark font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3">
+              <i data-lucide="calendar" class="w-5 h-5 text-espresso-dark"></i>
+              <span class="text-base">Book Your Appointment</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-espresso-dark"></i>
+            </a>
+            <a href="#services" class="w-full sm:w-auto px-7 py-4 rounded-full bg-white/80 hover:bg-white border border-champagne/40 hover:border-champagne text-espresso font-medium text-base transition-all shadow-sm flex items-center justify-center gap-2">
+              <span>Explore Women & Men Services</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-4 grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-lg mx-auto lg:mx-0 text-left">
+            <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white/80 border border-blush-200">
+              <div class="p-1.5 rounded-full bg-blush-100 text-champagne-600">
+                <i data-lucide="scissors" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-espresso">Women & Men</p>
+                <p class="text-[11px] text-espresso-muted">Stylists for both</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white/80 border border-blush-200">
+              <div class="p-1.5 rounded-full bg-blush-100 text-champagne-600">
+                <i data-lucide="shield-check" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-espresso">Hygienic Care</p>
+                <p class="text-[11px] text-espresso-muted">Sanitized stations</p>
+              </div>
+            </div>
+            <div class="col-span-2 sm:col-span-1 flex items-center gap-2.5 p-2.5 rounded-xl bg-white/80 border border-blush-200">
+              <div class="p-1.5 rounded-full bg-blush-100 text-champagne-600">
+                <i data-lucide="phone" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-espresso">Instant Booking</p>
+                <p class="text-[11px] text-espresso-muted">WhatsApp / Call</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual: Dual Modern Portraits (Boy & Girl Styling) -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <div class="grid grid-cols-2 gap-3 sm:gap-4">
+              <!-- Women styling portrait -->
+              <div class="relative rounded-2xl overflow-hidden shadow-xl border border-champagne/40 bg-white aspect-[3/4] group">
+                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="Women hair styling at LikeMe Salon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-transparent to-transparent"></div>
+                <div class="absolute bottom-2.5 left-3 right-3 text-white">
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-champagne">Women's Styling</span>
+                  <p class="text-xs font-serif font-bold">Hair & Skin Studio</p>
+                </div>
+              </div>
+
+              <!-- Men grooming portrait -->
+              <div class="relative rounded-2xl overflow-hidden shadow-xl border border-champagne/40 bg-white aspect-[3/4] group mt-6">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Men haircut and beard grooming at LikeMe Salon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-transparent to-transparent"></div>
+                <div class="absolute bottom-2.5 left-3 right-3 text-white">
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-champagne">Men's Grooming</span>
+                  <p class="text-xs font-serif font-bold">Fade & Beard Sculpting</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Central Badge -->
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-espresso text-ivory px-4 py-2 rounded-2xl shadow-2xl border border-champagne flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-champagne animate-ping"></span>
+              <span class="text-xs font-medium tracking-wide">Appointments Open for All</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT SECTION -->
+  <section id="about" class="py-20 md:py-28 bg-ivory relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Asymmetrical Images (Showing both Women & Men Salon Care) -->
+        <div class="lg:col-span-5 relative order-2 lg:order-1">
+          <div class="relative mx-auto max-w-md">
+            <div class="w-4/5 rounded-2xl overflow-hidden aspect-[4/5] border border-champagne/30 shadow-xl">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80" alt="Salon experience for women and men" class="w-full h-full object-cover" />
+            </div>
+            <div class="absolute -bottom-6 -right-2 w-3/5 rounded-2xl overflow-hidden aspect-[4/5] border-4 border-ivory shadow-2xl z-10">
+              <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Men's beard and hair styling" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Content -->
+        <div class="lg:col-span-7 space-y-6 order-1 lg:order-2">
+          <div>
+            <span class="text-xs uppercase tracking-widest font-bold text-champagne-600 block">About LikeMe Unisex Beauty Salon</span>
+            <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight mt-1">
+              Refined Self-Care for <br />
+              <span class="italic font-normal gold-gradient-text">Women & Men Alike.</span>
+            </h2>
+          </div>
+
+          <p class="text-base sm:text-lg text-espresso/80 leading-relaxed font-light">
+            At <strong class="font-semibold text-espresso">LikeMe Beauty Salon</strong>, we have created an inclusive, modern unisex destination where both women and men receive premium, personalized aesthetic and grooming care.
+          </p>
+
+          <p class="text-sm sm:text-base text-espresso-muted leading-relaxed">
+            From modern textured fades and beard grooming for men to bespoke bridal hair, balayage, and restorative skin rejuvenation for women, our stylists ensure each client enjoys individual consultation, comfortable hospitality, and pristine hygiene.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-blush-50/70 border border-blush-200">
+              <div class="p-1.5 rounded-lg bg-champagne-100 text-champagne-700 shrink-0">
+                <i data-lucide="scissors" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-espresso">Men's Precision Grooming</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">Classic cuts, fades, beard spa, hot towel rituals.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-blush-50/70 border border-blush-200">
+              <div class="p-1.5 rounded-lg bg-champagne-100 text-champagne-700 shrink-0">
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-espresso">Women's Styling & Artistry</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">Hair Botox, Balayage, HD makeup, bridal draping.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-blush-50/70 border border-blush-200">
+              <div class="p-1.5 rounded-lg bg-champagne-100 text-champagne-700 shrink-0">
+                <i data-lucide="shield-check" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-espresso">Hygiene First</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">Sanitized blades, scissors, and single-use disposables.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-blush-50/70 border border-blush-200">
+              <div class="p-1.5 rounded-lg bg-champagne-100 text-champagne-700 shrink-0">
+                <i data-lucide="heart" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-espresso">Relaxed Ambience</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">A welcoming space focused on your comfort and peace.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 flex items-center gap-4">
+            <a href="#appointment" class="gold-gradient-bg text-espresso-dark font-semibold px-6 py-3 rounded-full shadow-md text-sm flex items-center gap-2">
+              <span>Schedule Your Visit</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SERVICES SECTION (Women & Men Categories) -->
+  <section id="services" class="py-20 md:py-28 bg-blush-50/60 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blush-100 border border-champagne/30 text-champagne-600 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          <span>Unisex Salon Menu</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight">
+          Services for <span class="italic font-normal gold-gradient-text">Women & Men</span>
+        </h2>
+        <p class="text-base text-espresso-muted font-light leading-relaxed">
+          Select from our dedicated services for ladies and gentlemen. Prices depend on hair length, service type, and selected treatment.
+        </p>
+
+        <!-- Category Filters -->
+        <div class="flex flex-wrap items-center justify-center gap-2 pt-4">
+          <button onclick="filterServices('all')" class="service-tab-btn active px-4 py-2 rounded-full text-xs sm:text-sm font-semibold gold-gradient-bg text-espresso-dark shadow-xs" data-category="all">All Services</button>
+          <button onclick="filterServices('men')" class="service-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white hover:bg-blush-100 text-espresso/80 border border-blush-200" data-category="men">Men's Hair & Grooming</button>
+          <button onclick="filterServices('women')" class="service-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white hover:bg-blush-100 text-espresso/80 border border-blush-200" data-category="women">Women's Styling & Hair</button>
+          <button onclick="filterServices('skin')" class="service-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white hover:bg-blush-100 text-espresso/80 border border-blush-200" data-category="skin">Skin & Facials (Unisex)</button>
+          <button onclick="filterServices('wedding')" class="service-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white hover:bg-blush-100 text-espresso/80 border border-blush-200" data-category="wedding">Bridal & Groom Makeup</button>
+          <button onclick="filterServices('grooming')" class="service-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-medium bg-white hover:bg-blush-100 text-espresso/80 border border-blush-200" data-category="grooming">Hands, Feet & Care</button>
+        </div>
+      </div>
+
+      <!-- Service Cards Grid -->
+      <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. Men's Fade & Haircut -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="men">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Men's Haircut & Fade" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-[11px] font-semibold bg-espresso/90 text-champagne border border-champagne/40">Men's Top Pick</span>
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>30–45 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Men's Grooming</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Men's Precision Haircut & Fade</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Custom skin fades, taper cuts, textured crop, and classic scissor styling tailored to your head shape and hair flow.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Men\'s Precision Haircut & Fade')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Men\'s Precision Haircut & Fade')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Men's Beard Sculpting & Spa -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="men">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Beard Sculpting & Spa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>25–35 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Men's Grooming</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Beard Sculpting & Hot Towel Spa</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Crisp beard lines, razor shaping, nourishing beard oils, and soothing warm towel relaxation for sharp masculine grooming.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Beard Sculpting & Hot Towel Spa')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Beard Sculpting & Hot Towel Spa')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Women's Haircut & Styling -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="women">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Women's Haircut & Styling" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-[11px] font-semibold bg-espresso/90 text-champagne border border-champagne/40">Women's Favorite</span>
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>45–60 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Women's Hair</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Women's Haircut & Blowout</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Precision layered cuts, curtain bangs, bob sculpting, and glossy voluminous blowdrys tailored to your face structure.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Women\'s Haircut & Blowout')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Women\'s Haircut & Blowout')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Hair Spa & Treatments (Unisex) -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="women men">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Hair Spa & Keratin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-[11px] font-semibold bg-espresso/90 text-champagne border border-champagne/40">Unisex</span>
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>60–90 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Hair Therapies</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Hair Spa & Keratin Therapy</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Intense scalp hydration, anti-dandruff care, smoothing keratin, and protein restructuring for both men and women.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Hair Spa & Keratin Therapy')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Hair Spa & Keratin Therapy')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Skin Care & Deep Cleansing Facials (Unisex) -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="skin">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Facial & Skin Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-[11px] font-semibold bg-espresso/90 text-champagne border border-champagne/40">Glow & Detan</span>
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>50–70 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Skin Therapies</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Detan & Radiance Facials</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Detanning, blackhead removal, charcoal clarifying for men, and botanical glow therapies for ladies.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Detan & Radiance Facials')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Detan & Radiance Facials')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Bridal & Groom Wedding Packages -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="wedding">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80" alt="Bridal & Groom Styling" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-[11px] font-semibold bg-espresso/90 text-champagne border border-champagne/40">Bride & Groom</span>
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>120–180 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Wedding Studio</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Bridal Makeup & Groom Styling</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">HD wedding makeup, saree/dupatta draping for brides; sharp grooming, hair setting, and skin prep for grooms.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Bridal Makeup & Groom Styling')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Bridal Makeup & Groom Styling')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Hair Coloring & Highlights (Men & Women) -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="women men">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80" alt="Hair Coloring" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>60–120 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Hair Coloring</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Global Color & Highlights</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Grey blending for men, fashion highlights, balayage, and ammonia-gentle global gloss coverage for ladies.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Global Color & Highlights')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Global Color & Highlights')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Manicure, Pedicure & Care (Unisex) -->
+        <div class="service-card bg-white rounded-2xl overflow-hidden border border-blush-200 shadow-luxury hover:shadow-luxury-hover hover:-translate-y-1 transition-all flex flex-col group" data-category="grooming">
+          <div class="relative aspect-[16/10] overflow-hidden bg-blush-100">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" alt="Manicure & Pedicure" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/90 text-espresso text-xs font-medium">
+              <i data-lucide="clock" class="w-3 h-3 text-champagne-600"></i>
+              <span>40–55 mins</span>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-[11px] uppercase tracking-wider font-semibold text-champagne-600">Hands & Feet</span>
+                <span class="text-xs font-semibold text-espresso bg-blush-100 px-2 py-0.5 rounded border border-champagne/20">Contact for Pricing</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-espresso">Spa Manicure & Pedicure</h3>
+              <p class="text-xs sm:text-sm text-espresso-muted leading-relaxed mt-2">Dead skin exfoliation, cuticle cleaning, stress-relief foot massage, and nail care for both women and men.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-2 pt-2">
+              <button onclick="bookSpecificService('Spa Manicure & Pedicure')" class="w-full gold-gradient-bg text-espresso-dark font-medium text-xs py-2.5 px-3 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1">
+                <span>Book Service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+              <button onclick="inquirePrice('Spa Manicure & Pedicure')" class="w-full bg-blush-50 hover:bg-blush-100 text-espresso font-medium text-xs py-2.5 px-3 rounded-xl border border-blush-200 transition-colors flex items-center justify-center gap-1">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-[#25D366]"></i>
+                <span>Inquire Price</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. GALLERY / PORTFOLIO (Both Men & Women Looks) -->
+  <section id="gallery" class="py-20 md:py-28 bg-ivory relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blush-100 border border-champagne/30 text-champagne-600 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          <span>Visual Portfolio</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight">
+          Styling & Grooming <span className="italic font-normal gold-gradient-text">Showcase</span>
+        </h2>
+        <p class="text-base text-espresso-muted font-light leading-relaxed">
+          Inspiring hair styles, sharp beard trims, luminous bridal artistry, and skin treatments for women and men.
+        </p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- 1. Men's Fade -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85', 'Textured Crop & Low Fade', 'Men\'s Grooming')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Men's Fade" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Men's Grooming</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Textured Crop & Low Fade</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+        <!-- 2. Women's Blowout -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=85', 'Silk Finish Blowout & Layers', 'Women\'s Styling')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=900&q=80" alt="Women's Styling" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Women's Styling</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Silk Finish Blowout & Layers</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+        <!-- 3. Men's Beard Sculpting -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=85', 'Sculpted Beard & Taper Trim', 'Men\'s Grooming')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Beard Trim" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Men's Grooming</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Sculpted Beard & Taper Trim</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+        <!-- 4. Bridal Artistry -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=85', 'Luminous Dewy Bridal Artistry', 'Bridal Glamour')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=900&q=80" alt="Bridal Artistry" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Bridal Glamour</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Luminous Dewy Bridal Artistry</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+        <!-- 5. Skin Care (Unisex) -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85', 'Radiance Facial Rejuvenation', 'Skin & Glow')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80" alt="Skin Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Skin & Glow</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Radiance Facial Rejuvenation</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+        <!-- 6. Balayage Color -->
+        <div onclick="openLightbox('https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1200&q=85', 'Subtle Balayage Dimension', 'Hair Color')" class="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-blush-100 shadow-sm hover:shadow-luxury-hover border border-champagne/20 cursor-pointer transition-all">
+          <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=900&q=80" alt="Balayage" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-white">
+            <span class="text-[11px] font-semibold uppercase text-champagne">Hair Color</span>
+            <h4 class="font-serif text-lg font-bold text-white mt-1">Subtle Balayage Dimension</h4>
+            <span class="text-xs text-champagne-300 mt-2 flex items-center gap-1"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to enlarge</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-espresso-dark/95 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="relative max-w-3xl w-full bg-espresso rounded-2xl overflow-hidden border border-champagne/40 shadow-2xl">
+      <button onclick="closeLightbox()" class="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/60 text-white hover:text-champagne">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+      <div class="aspect-[4/3] sm:aspect-[16/10] bg-black flex items-center justify-center">
+        <img id="lightbox-img" src="" alt="Enlarged view" class="w-full h-full object-contain" />
+      </div>
+      <div class="p-6 bg-espresso text-ivory">
+        <span id="lightbox-cat" class="text-xs uppercase tracking-widest text-champagne font-semibold block"></span>
+        <h3 id="lightbox-title" class="font-serif text-xl sm:text-2xl font-bold text-white mt-1"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. WHY CHOOSE US -->
+  <section id="why-us" class="py-20 md:py-28 bg-blush-50/50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-14">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blush-100 border border-champagne/30 text-champagne-600 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+          <span>The LikeMe Commitment</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight">
+          Why Choose <span className="italic font-normal gold-gradient-text">LikeMe Unisex Salon</span>
+        </h2>
+        <p class="text-base text-espresso-muted font-light leading-relaxed">
+          Dedicated one-on-one attention, experienced stylists for men and women, and a clean, comfortable studio ambiance.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white rounded-2xl p-7 border border-blush-200 shadow-luxury hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-blush-100 flex items-center justify-center text-champagne-600 mb-4">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-espresso">Tailored to Everyone</h3>
+          <p class="text-xs sm:text-sm text-espresso-muted mt-2 leading-relaxed">Whether you need a modern fade, beard sculpting, or bridal makeover, every cut and style fits you.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-7 border border-blush-200 shadow-luxury hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-blush-100 flex items-center justify-center text-champagne-600 mb-4">
+            <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-espresso">Attention to Detail</h3>
+          <p class="text-xs sm:text-sm text-espresso-muted mt-2 leading-relaxed">Meticulous clipper work, delicate face framing, and clean line-ups with strict sterilization.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-7 border border-blush-200 shadow-luxury hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-blush-100 flex items-center justify-center text-champagne-600 mb-4">
+            <i data-lucide="heart" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-espresso">Comfortable Experience</h3>
+          <p class="text-xs sm:text-sm text-espresso-muted mt-2 leading-relaxed">A welcoming unisex atmosphere where both men and women feel completely at ease.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-7 border border-blush-200 shadow-luxury hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 rounded-xl bg-blush-100 flex items-center justify-center text-champagne-600 mb-4">
+            <i data-lucide="user-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-espresso">Zero-Rush Consultations</h3>
+          <p class="text-xs sm:text-sm text-espresso-muted mt-2 leading-relaxed">We listen to what you want before starting any haircut, beard trim, or skin procedure.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. APPOINTMENT BOOKING SECTION (With Gender Options) -->
+  <section id="appointment" class="py-20 md:py-28 bg-blush-50/70 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blush-100 border border-champagne/30 text-champagne-600 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+          <span>Reservations for Women & Men</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight">
+          Book Your <span class="italic font-normal gold-gradient-text">Appointment</span>
+        </h2>
+        <p class="text-base text-espresso-muted font-light leading-relaxed">
+          Select your service and timing. Your request opens directly on WhatsApp with our salon coordinator for instant slot verification.
+        </p>
+      </div>
+
+      <div class="max-w-4xl mx-auto bg-white rounded-3xl border border-champagne/30 shadow-luxury-hover overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12">
+          
+          <!-- Left Info Sidebar -->
+          <div class="lg:col-span-5 bg-espresso text-ivory p-8 sm:p-10 flex flex-col justify-between space-y-8">
+            <div class="space-y-6">
+              <div>
+                <span class="text-xs uppercase tracking-widest font-semibold text-champagne block">LikeMe Unisex Salon</span>
+                <h3 class="font-serif text-2xl font-bold text-white mt-1">Dedicated Client Care</h3>
+              </div>
+              <p class="text-xs sm:text-sm text-ivory/80 leading-relaxed font-light">
+                We prepare stations in advance for each client (men and women). Booking your slot ensures personal attention with zero waiting.
+              </p>
+              <div class="space-y-3 pt-2">
+                <div class="flex items-start gap-3 text-xs text-ivory/90">
+                  <i data-lucide="clock" class="w-4 h-4 text-champagne shrink-0 mt-0.5"></i>
+                  <div>
+                    <p class="font-semibold text-white">Opening Hours</p>
+                    <p class="text-ivory/70">Monday – Sunday</p>
+                    <p class="text-ivory/70">10:00 AM – 8:00 PM (By Appointment)</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3 text-xs text-ivory/90">
+                  <i data-lucide="phone" class="w-4 h-4 text-champagne shrink-0 mt-0.5"></i>
+                  <div>
+                    <p class="font-semibold text-white">Direct Phone Contact</p>
+                    <a href="tel:9749550616" class="text-champagne hover:underline">+91 9749550616</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-espresso-light/60 border border-champagne/20">
+              <div class="flex items-center gap-2 text-xs font-semibold text-champagne mb-1">
+                <i data-lucide="message-circle" class="w-4 h-4 text-[#25D366]"></i>
+                <span>Direct WhatsApp Dispatch</span>
+              </div>
+              <p class="text-[11px] text-ivory/70 leading-relaxed">
+                Sends booking request directly to our salon WhatsApp: <strong>9749550616</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Booking Form -->
+          <div class="lg:col-span-7 p-6 sm:p-10 bg-white">
+            <form id="booking-form" onsubmit="handleBooking(event)" class="space-y-4">
+              
+              <!-- Client Gender Selection -->
+              <div>
+                <label class="block text-xs font-semibold text-espresso mb-1.5">Booking For *</label>
+                <div class="grid grid-cols-3 gap-2">
+                  <label class="flex items-center justify-center gap-1.5 p-2 rounded-xl border border-blush-300 text-xs font-medium cursor-pointer hover:bg-blush-50 has-[:checked]:bg-champagne-50 has-[:checked]:border-champagne has-[:checked]:font-bold">
+                    <input type="radio" name="client-gender" value="Gentleman / Boy" checked class="accent-champagne-600" />
+                    <span>Men / Boy</span>
+                  </label>
+                  <label class="flex items-center justify-center gap-1.5 p-2 rounded-xl border border-blush-300 text-xs font-medium cursor-pointer hover:bg-blush-50 has-[:checked]:bg-champagne-50 has-[:checked]:border-champagne has-[:checked]:font-bold">
+                    <input type="radio" name="client-gender" value="Lady / Girl" class="accent-champagne-600" />
+                    <span>Women / Girl</span>
+                  </label>
+                  <label class="flex items-center justify-center gap-1.5 p-2 rounded-xl border border-blush-300 text-xs font-medium cursor-pointer hover:bg-blush-50 has-[:checked]:bg-champagne-50 has-[:checked]:border-champagne has-[:checked]:font-bold">
+                    <input type="radio" name="client-gender" value="Couple / Pair" class="accent-champagne-600" />
+                    <span>Couple</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="book-name" class="block text-xs font-semibold text-espresso mb-1">Your Full Name *</label>
+                  <input id="book-name" type="text" required placeholder="e.g. Rahul Verma or Priya Sen" class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory" />
+                </div>
+                <div>
+                  <label for="book-phone" class="block text-xs font-semibold text-espresso mb-1">Phone Number *</label>
+                  <input id="book-phone" type="tel" required placeholder="e.g. 9749550616" class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory" />
+                </div>
+              </div>
+
+              <div>
+                <label for="book-service" class="block text-xs font-semibold text-espresso mb-1">Preferred Service *</label>
+                <select id="book-service" required class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory">
+                  <option value="">-- Choose a Service --</option>
+                  <optgroup label="Men's Services">
+                    <option value="Men's Precision Haircut & Fade">Men's Precision Haircut & Fade</option>
+                    <option value="Beard Sculpting & Hot Towel Spa">Beard Sculpting & Hot Towel Spa</option>
+                    <option value="Men's Haircut + Beard Combo">Men's Haircut + Beard Combo</option>
+                    <option value="Groom Wedding Styling & Makeover">Groom Wedding Styling & Makeover</option>
+                    <option value="Men's Detan & Charcoal Facial">Men's Detan & Charcoal Facial</option>
+                  </optgroup>
+                  <optgroup label="Women's Services">
+                    <option value="Women's Haircut & Blowout">Women's Haircut & Blowout</option>
+                    <option value="Hair Coloring & Balayage">Hair Coloring & Balayage</option>
+                    <option value="Bridal Makeup & Styling">Bridal Makeup & Styling</option>
+                    <option value="Party & Occasion Makeup">Party & Occasion Makeup</option>
+                    <option value="Radiance Glow Facial">Radiance Glow Facial</option>
+                  </optgroup>
+                  <optgroup label="Unisex Therapies">
+                    <option value="Hair Spa & Keratin Therapy">Hair Spa & Keratin Therapy</option>
+                    <option value="Detan & Radiance Facials">Detan & Radiance Facials</option>
+                    <option value="Spa Manicure & Pedicure">Spa Manicure & Pedicure</option>
+                    <option value="General Beauty Consultation">General Beauty Consultation</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="book-date" class="block text-xs font-semibold text-espresso mb-1">Preferred Date *</label>
+                  <input id="book-date" type="date" required class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory" />
+                </div>
+                <div>
+                  <label for="book-time" class="block text-xs font-semibold text-espresso mb-1">Preferred Time Slot *</label>
+                  <select id="book-time" required class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory">
+                    <option value="">-- Select Time Slot --</option>
+                    <option value="Morning: 10:00 AM – 12:00 PM">Morning: 10:00 AM – 12:00 PM</option>
+                    <option value="Afternoon: 12:00 PM – 03:00 PM">Afternoon: 12:00 PM – 03:00 PM</option>
+                    <option value="Evening: 03:00 PM – 06:00 PM">Evening: 03:00 PM – 06:00 PM</option>
+                    <option value="Late Evening: 06:00 PM – 08:00 PM">Late Evening: 06:00 PM – 08:00 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="book-notes" class="block text-xs font-semibold text-espresso mb-1">Optional Notes / Specific Requests</label>
+                <textarea id="book-notes" rows="2" placeholder="e.g. Any hair/skin preference, wedding date, or specific styling request..." class="w-full text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-blush-300 focus:outline-none focus:ring-2 focus:ring-champagne bg-ivory resize-none"></textarea>
+              </div>
+
+              <div class="p-3 rounded-xl bg-blush-50 border border-champagne/30 text-[11px] text-espresso-muted flex items-start gap-2">
+                <i data-lucide="info" class="w-4 h-4 text-champagne-600 shrink-0 mt-0.5"></i>
+                <p><strong>Note:</strong> Your request opens WhatsApp directly. Booking is confirmed once our salon coordinator verifies the slot with you.</p>
+              </div>
+
+              <button type="submit" class="w-full gold-gradient-bg text-espresso-dark font-bold py-3.5 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all text-sm sm:text-base flex items-center justify-center gap-2 cursor-pointer">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Request Appointment via WhatsApp</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. CONTACT SECTION -->
+  <section id="contact" class="py-20 md:py-28 bg-ivory relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-14">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blush-100 border border-champagne/30 text-champagne-600 text-xs font-semibold uppercase tracking-wider">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          <span>Get In Touch</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-espresso leading-tight">
+          Connect With <span className="italic font-normal gold-gradient-text">LikeMe Unisex Salon</span>
+        </h2>
+        <p class="text-base text-espresso-muted font-light leading-relaxed">
+          Questions about styling, treatments, or bridal/groom bookings? Reach us directly via call or WhatsApp.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <div class="bg-white p-6 rounded-2xl border border-blush-200 shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-blush-100 flex items-center justify-center text-champagne-600 mb-4">
+                <i data-lucide="phone" class="w-6 h-6"></i>
+              </div>
+              <h4 class="font-serif text-lg font-bold text-espresso">Phone Inquiry</h4>
+              <p class="text-xs text-espresso-muted mt-1">Direct call with salon reception</p>
+              <a href="tel:9749550616" class="mt-4 block text-base font-bold text-champagne-700 hover:text-champagne-800">+91 9749550616</a>
+              <a href="tel:9749550616" class="mt-4 w-full gold-gradient-bg text-espresso-dark font-semibold text-xs py-2.5 px-4 rounded-xl shadow-xs flex items-center justify-center gap-2">
+                <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                <span>Click to Call</span>
+              </a>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl border border-blush-200 shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-[#25D366]/15 flex items-center justify-center text-[#25D366] mb-4">
+                <i data-lucide="message-circle" class="w-6 h-6"></i>
+              </div>
+              <h4 class="font-serif text-lg font-bold text-espresso">WhatsApp Chat</h4>
+              <p class="text-xs text-espresso-muted mt-1">Instant messaging & appointments</p>
+              <p class="mt-4 text-base font-bold text-espresso">9749550616</p>
+              <a href="https://wa.me/919749550616" target="_blank" class="mt-4 w-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-semibold text-xs py-2.5 px-4 rounded-xl shadow-xs flex items-center justify-center gap-2 transition-colors">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Message on WhatsApp</span>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="bg-white p-6 sm:p-7 rounded-2xl border border-blush-200 shadow-sm space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 shrink-0">
+                <i data-lucide="clock" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-base font-bold text-espresso">Salon Hours</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">Monday to Sunday • 10:00 AM – 8:00 PM (By Appointment)</p>
+              </div>
+            </div>
+            <div class="pt-4 border-t border-blush-100 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-base font-bold text-espresso">Studio Location</h4>
+                <p class="text-xs text-espresso-muted mt-0.5">Conveniently accessible studio. Exact map pin sent with appointment confirmation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQs -->
+        <div class="lg:col-span-5 bg-white p-6 sm:p-8 rounded-2xl border border-blush-200 shadow-sm space-y-4">
+          <div class="flex items-center gap-2 mb-2">
+            <i data-lucide="help-circle" class="w-5 h-5 text-champagne-600"></i>
+            <h3 class="font-serif text-xl font-bold text-espresso">Frequently Asked Questions</h3>
+          </div>
+
+          <div class="space-y-3 text-xs">
+            <details class="border border-blush-200 rounded-xl p-3.5 group" open>
+              <summary class="font-semibold text-espresso cursor-pointer list-none flex justify-between items-center">
+                <span>Is this salon for both men and women?</span>
+                <span class="text-champagne-600 text-sm font-bold group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p class="text-espresso-muted mt-2 pt-2 border-t border-blush-100 leading-relaxed">
+                Yes, absolutely! LikeMe Beauty Salon is a full-service unisex studio offering dedicated grooming, haircuts, and beard styling for men, as well as haircuts, makeup, and bridal services for women.
+              </p>
+            </details>
+
+            <details class="border border-blush-200 rounded-xl p-3.5 group">
+              <summary class="font-semibold text-espresso cursor-pointer list-none flex justify-between items-center">
+                <span>Do I need to book in advance?</span>
+                <span class="text-champagne-600 text-sm font-bold group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p class="text-espresso-muted mt-2 pt-2 border-t border-blush-100 leading-relaxed">
+                Appointments are highly recommended to secure your preferred stylist and time slot without waiting.
+              </p>
+            </details>
+
+            <details class="border border-blush-200 rounded-xl p-3.5 group">
+              <summary class="font-semibold text-espresso cursor-pointer list-none flex justify-between items-center">
+                <span>Do you offer Groom and Bridal packages?</span>
+                <span class="text-champagne-600 text-sm font-bold group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p class="text-espresso-muted mt-2 pt-2 border-t border-blush-100 leading-relaxed">
+                Yes! We offer pre-wedding groom grooming, bridal HD makeup, hair setting, skin detan, and customized couple packages.
+              </p>
+            </details>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. FOOTER -->
+  <footer class="bg-espresso text-ivory pt-16 pb-12 border-t border-champagne/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-espresso-light">
+        
+        <div class="lg:col-span-6 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-champagne-500/20 flex items-center justify-center border border-champagne">
+              <span class="font-serif font-bold text-champagne text-lg">LM</span>
+            </div>
+            <div>
+              <span class="font-serif text-2xl font-bold tracking-tight text-white block">
+                LikeMe <span class="italic font-light text-champagne">Unisex</span>
+              </span>
+              <span class="text-[10px] uppercase tracking-[0.22em] text-ivory/60 block font-medium">Beauty & Grooming Salon</span>
+            </div>
+          </div>
+          <p class="text-xs sm:text-sm text-ivory/70 leading-relaxed font-light max-w-sm">
+            Personalized grooming, haircuts, beard sculpting, and bridal styling for women and men in an unhurried, luxurious atmosphere.
+          </p>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-champagne">Quick Links</h4>
+          <ul class="space-y-2 text-xs text-ivory/70">
+            <li><a href="#home" class="hover:text-champagne">Home</a></li>
+            <li><a href="#about" class="hover:text-champagne">About Us</a></li>
+            <li><a href="#services" class="hover:text-champagne">Women & Men Menu</a></li>
+            <li><a href="#gallery" class="hover:text-champagne">Portfolio</a></li>
+            <li><a href="#appointment" class="hover:text-champagne">Book Appointment</a></li>
+            <li><a href="#contact" class="hover:text-champagne">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-champagne">Salon Contact</h4>
+          <div class="space-y-2 text-xs text-ivory/80">
+            <a href="tel:9749550616" class="flex items-center gap-2 hover:text-champagne">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-champagne"></i>
+              <span>+91 9749550616</span>
+            </a>
+            <p class="text-[11px] text-ivory/60">Monday to Sunday • 10:00 AM – 8:00 PM</p>
+            <p class="text-[10px] text-ivory/50 italic">Studio visits by confirmed appointment</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ivory/60">
+        <p>&copy; 2026 <strong class="text-ivory font-medium">LikeMe Beauty Salon</strong>. All rights reserved.</p>
+        <p class="text-[11px] text-ivory/50">Designed for Women & Men • LikeMe Unisex Salon</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 11. FLOATING WHATSAPP & MOBILE BOTTOM BAR -->
+  <div class="fixed bottom-6 right-6 z-40">
+    <a href="https://wa.me/919749550616" target="_blank" class="group relative flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-xl hover:scale-110 active:scale-95 transition-all" aria-label="WhatsApp LikeMe Beauty Salon">
+      <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-champagne-400 rounded-full border-2 border-white animate-ping"></span>
+      <i data-lucide="message-circle" class="w-7 h-7"></i>
+    </a>
+  </div>
+
+  <div class="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-champagne/30 px-4 py-2.5 flex items-center justify-between gap-3 shadow-lg">
+    <a href="tel:9749550616" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl border border-blush-300 text-espresso font-semibold text-xs bg-blush-50">
+      <i data-lucide="phone" class="w-3.5 h-3.5 text-champagne-600"></i>
+      <span>Call Salon</span>
+    </a>
+    <a href="#appointment" class="flex-1 gold-gradient-bg text-espresso-dark font-bold py-2.5 rounded-xl text-xs shadow-sm flex items-center justify-center gap-1.5">
+      <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+      <span>Book Appointment</span>
+    </a>
+  </div>
+
+  <!-- JAVASCRIPT CONTROLLERS -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Set minimum date to today
+    const dateInput = document.getElementById('book-date');
+    if (dateInput) {
+      dateInput.min = new Date().toISOString().split('T')[0];
+    }
+
+    // Mobile Menu Toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Services Filter Tabs
+    function filterServices(category) {
+      const cards = document.querySelectorAll('.service-card');
+      const tabs = document.querySelectorAll('.service-tab-btn');
+
+      tabs.forEach(tab => {
+        if (tab.getAttribute('data-category') === category) {
+          tab.classList.add('gold-gradient-bg', 'text-espresso-dark', 'font-semibold');
+          tab.classList.remove('bg-white', 'text-espresso/80');
+        } else {
+          tab.classList.remove('gold-gradient-bg', 'text-espresso-dark', 'font-semibold');
+          tab.classList.add('bg-white', 'text-espresso/80');
+        }
+      });
+
+      cards.forEach(card => {
+        const cardCats = card.getAttribute('data-category') || '';
+        if (category === 'all' || cardCats.includes(category)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Preselect Service & Scroll to Booking
+    function bookSpecificService(serviceName) {
+      const selectEl = document.getElementById('book-service');
+      if (selectEl) {
+        selectEl.value = serviceName;
+      }
+      const appointmentSec = document.getElementById('appointment');
+      if (appointmentSec) {
+        appointmentSec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Inquire Price on WhatsApp
+    function inquirePrice(serviceName) {
+      const text = encodeURIComponent(`Hello LikeMe Unisex Salon! ✨ I would like to know the pricing and details for your service: "${serviceName}".`);
+      window.open(`https://wa.me/919749550616?text=${text}`, '_blank');
+    }
+
+    // Booking Submission to WhatsApp with Gender details
+    function handleBooking(e) {
+      e.preventDefault();
+      const genderEl = document.querySelector('input[name="client-gender"]:checked');
+      const gender = genderEl ? genderEl.value : 'Guest';
+      const name = document.getElementById('book-name').value.trim();
+      const phone = document.getElementById('book-phone').value.trim();
+      const service = document.getElementById('book-service').value;
+      const date = document.getElementById('book-date').value;
+      const timeSlot = document.getElementById('book-time').value;
+      const notes = document.getElementById('book-notes').value.trim();
+
+      if (!name || !phone || !service || !date || !timeSlot) {
+        alert("Please complete all required fields (*).");
+        return;
+      }
+
+      const formattedMessage = 
+`*APPOINTMENT REQUEST — LikeMe Unisex Salon* ✨
+──────────────────────────
+👥 *Client Category:* ${gender}
+👤 *Client Name:* ${name}
+📞 *Contact Phone:* ${phone}
+💈 *Preferred Service:* ${service}
+📅 *Preferred Date:* ${date}
+⏰ *Preferred Time:* ${timeSlot}
+${notes ? `📝 *Special Notes:* ${notes}\n` : ''}──────────────────────────
+💬 _I would like to request this appointment slot. Please confirm availability and pricing. Thank you!_`;
+
+      const encoded = encodeURIComponent(formattedMessage);
+      window.open(`https://wa.me/919749550616?text=${encoded}`, '_blank');
+    }
+
+    // Lightbox Controls
+    const modal = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-img');
+    const modalTitle = document.getElementById('lightbox-title');
+    const modalCat = document.getElementById('lightbox-cat');
+
+    function openLightbox(imgUrl, title, category) {
+      modalImg.src = imgUrl;
+      modalTitle.textContent = title;
+      modalCat.textContent = category;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeLightbox() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeLightbox();
+      }
+    });
+  </script>
+</body>
+</html>
